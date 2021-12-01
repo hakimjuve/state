@@ -32,21 +32,17 @@ export default class App extends Component {
         })
 
     }
-
-
-
-
     render() {
         return (
             <div className="App">
-<div style={{ width: '24.6rem' }}>
+<div style={{ width: '20rem',height: '10rem', marginLeft: "15px" }}>
 <Card>
   <Card.Img variant="top"  src="/tshrt.jpg" alt="image" />
   <Card.Body>
     <Card.Title style={{textAlign:"center"}}>Juvents Kit 2021/22</Card.Title>
     <p style={{textAlign:"center"}} >Price: 120$ <br /> Size: S L XL 2XL 3XL</p>
     
-    <p style={{border:"solid 2px #e6e6e6", fontSize:"30px", textAlign:"center",borderRadius:"10px", width:"75px", marginLeft:"150px"}}> {this.state.counter}</p>
+    <p id="pp" > {this.state.counter}</p>
 
     <Button variant="primary" onClick={this.increse}>+</Button>
     <Button variant="primary" onClick={this.decrese} >-</Button>

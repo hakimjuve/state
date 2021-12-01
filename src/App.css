@@ -15,8 +15,12 @@
 .App {
   text-align: center;
   background-image: url('https://store.juventus.com/media/images/ecommerce/slider_Seletti_2.jpg');
-
+  width: auto;
+  height: 625px;
+  margin-top: 0%;
+  position: sticky;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -57,4 +61,6 @@
 .btn{
   margin-left: 10%;
 }
+
+
 
